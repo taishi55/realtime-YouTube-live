@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.normal-font {
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo-font {
+  font-family: "Playball", cursive;
+}
+
+.coffee-font {
+    font-family: 'Sunshiney', cursive;
+}
+
+.window-bg-color {
+  @apply bg-gradient-to-br from-pink-900/20 to-blue-900/20;
+}
